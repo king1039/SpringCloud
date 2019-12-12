@@ -8,8 +8,8 @@ spring:
       server:
         git:
           uri: https://gitee.com/king1039/springcloud-config.git
-          username: 821578297@qq.com
-          password: wl802085
+          username: *********@qq.com
+          password: ******
   rabbitmq:
     host: 172.16.10.221
 management:
