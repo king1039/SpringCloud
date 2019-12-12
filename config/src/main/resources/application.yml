@@ -1,0 +1,19 @@
+server:
+  port: 12000
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/king1039/springcloud-config.git
+          username: 821578297@qq.com
+          password: wl802085
+  rabbitmq:
+    host: 172.16.10.221
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
