@@ -11,7 +11,7 @@ spring:
           username: *********@qq.com
           password: ******
   rabbitmq:
-    host: 172.16.10.221
+    host: ***.***.***.***
 management:
   endpoints:
     web:
